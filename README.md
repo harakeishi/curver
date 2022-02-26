@@ -1,5 +1,5 @@
 ![logo](logo.png)
-[![GitHub release](https://img.shields.io/github/release/harakeishi/curver.svg)](https://github.com/harakeishi/curver/releases) [![Go Report Card](https://goreportcard.com/badge/github.com/harakeishi/curver)](https://goreportcard.com/report/github.com/harakeishi/curver) [![Test](https://github.com/harakeishi/curver/actions/workflows/test.yml/badge.svg)](https://github.com/harakeishi/curver/actions/workflows/test.yml)
+[![GitHub release](https://img.shields.io/github/release/harakeishi/curver.svg)](https://github.com/harakeishi/curver/releases) [![Go Report Card](https://goreportcard.com/badge/github.com/harakeishi/curver)](https://goreportcard.com/report/github.com/harakeishi/curver) 
 
 `curver` is a simple way to display the version of a CUI tool made with go.
 `curver` was named as an abbreviation for `current version`.
@@ -9,8 +9,9 @@
 - [Importing](#importing)
 - [Documentation](#documentation)
 - [usage](#usage)
-  - [normal](#normal)
+  - [use go build](#use-go-build)
   - [use goreleaser](#use-goreleaser)
+  - [If you only want the version](#if-you-only-want-the-version)
 - [License](#license)
 
 # Installation
@@ -32,7 +33,7 @@ Visit the docs on [GoDoc](https://pkg.go.dev/github.com/harakeishi/curver)
 If the value using ldflag is stored in the variable Version, that value will be displayed.
 Otherwise, it will display the build information embedded in the running binary.
 
-## normal
+## use go build
 ```go
 // main.go
 package main
@@ -60,7 +61,7 @@ version: v0.1.0
 If you want to embed the result of 'git tag', you can do the following
 
 ```
-$ go build -ldflags "-X github.com/harakeishi/curver.Version=$(git describe --tags)" -o ./cmds 
+$ go build -ldflags "-X github.com/harakeishi/curver.Version=$(git describe --tags)" -o ./main
 ```
 ## use goreleaser
 If you are using [goreleaser](https://goreleaser.com/) to do the release, do the following
@@ -70,6 +71,22 @@ builds:
   - eldflags:
       - -s -w -X github.com/harakeishi/curver.Version={{.Version}}
 
+```
+
+## If you only want the version
+The following will return the version as a string.
+
+```go
+// main.go
+package main
+
+import (
+	"github.com/harakeishi/curver"
+)
+
+func main () {
+    version := curver.GetVersion()
+}
 ```
 
 # License
