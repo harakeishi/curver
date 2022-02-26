@@ -7,7 +7,7 @@
 `curver` is a simple way to display the version of a CUI tool made with go.
 `curver` was named as an abbreviation for `current version`.
 
-## Table of Contents
+### Table of Contents
 - [Installation](#installation)
 - [Importing](#importing)
 - [Documentation](#documentation)
@@ -16,27 +16,28 @@
   - [use goreleaser](#use-goreleaser)
   - [If you only want the version](#if-you-only-want-the-version)
 - [License](#license)
+- [Contributors ✨](#contributors-)
 
-# Installation
+## Installation
 ```bash
 go get github.com/harakeishi/curver
 ```
 
-# Importing
+## Importing
 ```go
 import (
     "github.com/harakeishi/curver"
 )
 ```
 
-# Documentation
+## Documentation
 Visit the docs on [GoDoc](https://pkg.go.dev/github.com/harakeishi/curver)
 
-# usage
+## usage
 If the value using ldflag is stored in the variable Version, that value will be displayed.
 Otherwise, it will display the build information embedded in the running binary.
 
-## use go build
+### use go build
 ```go
 // main.go
 package main
@@ -66,7 +67,7 @@ If you want to embed the result of 'git tag', you can do the following
 ```
 $ go build -ldflags "-X github.com/harakeishi/curver.Version=$(git describe --tags)" -o ./main
 ```
-## use goreleaser
+### use goreleaser
 If you are using [goreleaser](https://goreleaser.com/) to do the release, do the following
 
 ```yml
@@ -76,7 +77,7 @@ builds:
 
 ```
 
-## If you only want the version
+### If you only want the version
 The following will return the version as a string.
 
 ```go
@@ -92,7 +93,7 @@ func main () {
 }
 ```
 
-# License
+## License
 Copyright (c) 2022 harakeishi
 Licensed under [MIT](LICENSE)
 
