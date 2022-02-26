@@ -5,8 +5,13 @@ import (
 	"runtime/debug"
 )
 
-var Version string
+var Version string // version
 
+/*
+Returns the version as a string.
+If the Version variable is filled with a value using ldflag, it will be returned.
+Otherwise, it will return the build information embedded in the running binary.
+*/
 func GetVersion() string {
 	if Version != "" {
 		return Version
@@ -17,6 +22,9 @@ func GetVersion() string {
 	return "unknown"
 }
 
+/*
+Displays the EchoVersion value.
+*/
 func EchoVersion() {
-	fmt.Println(GetVersion())
+	fmt.Printf("version: %s", GetVersion())
 }
