@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "harakeishi",
+      "name": "原　慧士",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44335168?v=4",
+      "profile": "https://yaserarenai.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "curver",
+  "projectOwner": "harakeishi",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
