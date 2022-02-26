@@ -26,5 +26,5 @@ func GetVersion() string {
 Displays the EchoVersion value.
 */
 func EchoVersion() {
-	fmt.Printf("version: %s", GetVersion())
+	fmt.Printf("version: %s\n", GetVersion())
 }
