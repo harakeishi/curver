@@ -1,4 +1,7 @@
 ![logo](logo.png)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![GitHub release](https://img.shields.io/github/release/harakeishi/curver.svg)](https://github.com/harakeishi/curver/releases) [![Go Report Card](https://goreportcard.com/badge/github.com/harakeishi/curver)](https://goreportcard.com/report/github.com/harakeishi/curver) 
 
 `curver` is a simple way to display the version of a CUI tool made with go.
@@ -92,3 +95,23 @@ func main () {
 # License
 Copyright (c) 2022 harakeishi
 Licensed under [MIT](LICENSE)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://yaserarenai.com"><img src="https://avatars.githubusercontent.com/u/44335168?v=4?s=100" width="100px;" alt=""/><br /><sub><b>原　慧士</b></sub></a><br /><a href="https://github.com/harakeishi/curver/commits?author=harakeishi" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
