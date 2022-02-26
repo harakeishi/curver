@@ -38,8 +38,7 @@ If the value using ldflag is stored in the variable Version, that value will be 
 Otherwise, it will display the build information embedded in the running binary.
 
 ### use go build
-```go
-// main.go
+```go:main.go
 package main
 
 import (
@@ -80,8 +79,7 @@ builds:
 ### If you only want the version
 The following will return the version as a string.
 
-```go
-// main.go
+```go:main.go
 package main
 
 import (
