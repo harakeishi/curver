@@ -23,7 +23,7 @@ func GetVersion() string {
 }
 
 /*
-Displays the EchoVersion value.
+Displays the GetVersion value.
 */
 func EchoVersion() {
 	fmt.Printf("version: %s\n", GetVersion())

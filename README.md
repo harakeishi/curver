@@ -4,8 +4,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![GitHub release](https://img.shields.io/github/release/harakeishi/curver.svg)](https://github.com/harakeishi/curver/releases) [![Go Report Card](https://goreportcard.com/badge/github.com/harakeishi/curver)](https://goreportcard.com/report/github.com/harakeishi/curver) 
 
-`curver` is a simple way to display the version of a CUI tool made with go.
-`curver` was named as an abbreviation for `current version`.
+`curver` is an easy way to display the version of a CUI tool made with go.
+You can display the version either with `go install` or with built binaries.
+curver` is named as an abbreviation of `current version`.
 
 ### Table of Contents
 - [Installation](#installation)
