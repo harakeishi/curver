@@ -72,7 +72,7 @@ If you are using [goreleaser](https://goreleaser.com/) to do the release, do the
 
 ```yml
 builds:
-  - eldflags:
+  - ldflags:
       - -s -w -X github.com/harakeishi/curver.Version={{.Version}}
 
 ```
