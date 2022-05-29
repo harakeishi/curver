@@ -6,7 +6,7 @@
 
 `curver` is an easy way to display the version of a CUI tool made with go.
 You can display the version either with `go install` or with built binaries.
-curver` is named as an abbreviation of `current version`.
+`curver` is named as an abbreviation of `current version`.
 
 ### Table of Contents
 - [Installation](#installation)
@@ -72,7 +72,7 @@ If you are using [goreleaser](https://goreleaser.com/) to do the release, do the
 
 ```yml
 builds:
-  - eldflags:
+  - ldflags:
       - -s -w -X github.com/harakeishi/curver.Version={{.Version}}
 
 ```
