@@ -1,6 +1,6 @@
 ![logo](logo.png)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![GitHub release](https://img.shields.io/github/release/harakeishi/curver.svg)](https://github.com/harakeishi/curver/releases) [![Go Report Card](https://goreportcard.com/badge/github.com/harakeishi/curver)](https://goreportcard.com/report/github.com/harakeishi/curver) 
 
@@ -106,6 +106,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://yaserarenai.com"><img src="https://avatars.githubusercontent.com/u/44335168?v=4?s=100" width="100px;" alt=""/><br /><sub><b>原　慧士</b></sub></a><br /><a href="https://github.com/harakeishi/curver/commits?author=harakeishi" title="Code">💻</a></td>
+    <td align="center"><a href="http://akimon658.github.io"><img src="https://avatars.githubusercontent.com/u/81888693?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akimo</b></sub></a><br /><a href="https://github.com/harakeishi/curver/commits?author=Akimon658" title="Documentation">📖</a></td>
   </tr>
 </table>
 
